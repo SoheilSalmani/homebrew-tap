@@ -12,23 +12,23 @@ class Weft < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/SoheilSalmani/weft/releases/download/v0.1.0/weft-aarch64-apple-darwin.tar.gz"
-      sha256 "9904cbbd2d38e6b9815d4948a1429bf2c32f4fd77c5de3e14459caf879c542bf"
+      url "https://github.com/SoheilSalmani/weft/releases/download/v0.2.0/weft-aarch64-apple-darwin.tar.gz"
+      sha256 "e0b4f23cc8956f658fe730f17bc261c4d4b8326b4a6e50be727a69fe3403b7b8"
     end
     on_intel do
-      url "https://github.com/SoheilSalmani/weft/releases/download/v0.1.0/weft-x86_64-apple-darwin.tar.gz"
-      sha256 "22ae7dc919f396695a3ed684d8b3f49a2bd6514d6d57c0f1561fdd9f5fe37647"
+      url "https://github.com/SoheilSalmani/weft/releases/download/v0.2.0/weft-x86_64-apple-darwin.tar.gz"
+      sha256 "ae063caf8ddd51be4707d8a2fecd78416cbf59da5066e27fe71da24ce6e82134"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/SoheilSalmani/weft/releases/download/v0.1.0/weft-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0d4ede135ae91a5f9e3256ee6f81f4c9aa5cf9ffccbf9c694eb590018bbebb2c"
+      url "https://github.com/SoheilSalmani/weft/releases/download/v0.2.0/weft-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bc33958af5d9d622fe1dc59c664fbe13a3c6d22352ba6561b1a1ab66f4be2bb3"
     end
     on_intel do
-      url "https://github.com/SoheilSalmani/weft/releases/download/v0.1.0/weft-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "be6d9992b8cc7d7032f5bd8d9e810d67e4d7806551a1c2b084473acf4f611924"
+      url "https://github.com/SoheilSalmani/weft/releases/download/v0.2.0/weft-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1105100e78629126eb2cfd6f2d090bfd248aeafd2317caf3f458014a97bb45de"
     end
   end
 
